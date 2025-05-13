@@ -4,13 +4,10 @@ public class Multiple_Main_Method {
     public static void main(String[] args) {
 
     }
-//there can be multiple main methods but only one main method which JVM recognize
-    /** you can have multiple main functions, but only one function of main method is recognize by JVM
-    * should be present
-     * The concept of multiple main method is called as Main Method Overloading
-     **/
+
 
     public static void main(int args) {
+        //there can be multiple main methods but only one main method which JVM recognize
 
     }
 
