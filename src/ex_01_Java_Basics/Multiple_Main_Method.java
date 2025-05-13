@@ -6,7 +6,7 @@ public class Multiple_Main_Method {
     }
 
 
-    public static void main(int args) {
+    public static void main(int) {
         //there can be multiple main methods but only one main method which JVM recognize
 
     }
