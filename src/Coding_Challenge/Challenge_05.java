@@ -10,9 +10,9 @@ public class Challenge_05 {
         double b = scanner.nextDouble(); //e.g: 3.5
 
         // Operator precedence demonstration
-        // Expression: a + 2 * (int)b
-        int expressionResult = a + 2 * (int)b;
-        System.out.println("Exression result (a + 2 * (int)b): " + expressionResult);
+        // Expression:
+        int expressionResult = a + (int)b * 2 + 7;
+        System.out.println("Exression result (a + (int)b * 2 + 3): " + expressionResult);
 
         // Implicit casting: int + double → double
         double implicitCasting = a+b;
